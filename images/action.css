@@ -1,0 +1,292 @@
+/*弹出窗口标题*/
+.sysTitle {
+    margin: 5px;
+    padding: 0 25px;
+    height:25px;
+    background: url(title.gif) no-repeat 2px 4px;
+    font: bold 14px/25px Verdana;
+    color: #7F7F7F;
+    border-bottom: 1px solid #D8D8D8;
+}
+/*关闭窗口按钮*/
+.sysClose {
+    position: absolute;
+    top:8px;
+    right: 8px;
+    width: 15px;
+    height: 15px;
+    background: url(close.gif) no-repeat;
+    text-indent: -10000px;
+    outline:none;
+    hide-focus:expression(this.hideFocus=true);
+    overflow: hidden;
+}
+/*提示内容*/
+.sysTip {
+    margin: 0;
+    padding: 0;
+    height: 64px;
+    font: normal 12px/64px Verdana;
+    color: gray;
+    text-align: center;
+}
+/*提交按钮*/
+.sysSubmit {
+    margin: 0;
+    padding: 0;
+    height: 24px;
+}
+.sysSubmit_a {
+    float: right;
+    margin: 0 20px 0 0;
+    padding: 0;
+    height: 24px;
+    width: 70px;
+    background: url(btn.png) no-repeat 0 0;
+    font: normal 12px/24px Verdana;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    outline:none;
+    hide-focus:expression(this.hideFocus=true);
+}
+.sysSubmit_a:hover {
+    background: url(btn.png) no-repeat -70px 0;
+}
+
+
+/**
+ * 以上为通用样式
+ */
+
+
+
+
+/*登录*/
+.sysLoginItem {
+    margin: 0 0 5px 0;
+    padding: 0;
+    height: 24px;
+}
+.sysLoginItem span {
+    float: left;
+    margin: 0 0 0 7px;
+    padding: 0;
+    height: 24px;
+    width: 70px;
+    font: normal 12px/24px Verdana;
+    color: #7F7F7F;
+    text-align: center;
+}
+.sysLoginItem input {
+    float: right;
+    margin: 0 20px 0 0;
+    padding: 0 5px;
+    height: 22px;
+    width: 170px;
+    background: #F9F9F9;
+    font: bold 12px/22px Verdana;
+    color: #5E5E5E;
+    border: 1px solid silver;
+    outline: none;
+}
+/*留言*/
+.sysMessageP1 {
+    margin: 0;
+    padding: 0;
+    height: 29px;
+    overflow: hidden;
+}
+.sysMessageP1Span1 {
+    float: left;
+    margin: 0 0 0 20px;
+    padding: 0;
+    height: 24px;
+    width: 60px;
+    font: normal 12px/24px Verdana;
+    color: #7F7F7F;
+    text-align: center;
+}
+.sysMessageP1Span2 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 24px;
+    width: 90px;
+    font: normal 12px/24px Verdana;
+    color: #7F7F7F;
+    text-align: center;
+}
+.sysMessageP1 input {
+    float: left;
+    margin: 0;
+    padding: 0 4px;
+    height: 22px;
+    width: 170px;
+    background: #F9F9F9;
+    font: normal 12px/22px Verdana;
+    border: 1px solid silver;
+    outline: none;  
+}
+.sysMessageP2 {
+    margin: 0;
+    padding: 0;
+    height: 113px;
+    overflow: hidden;
+}
+.sysMessageP2 textarea {
+    float: left;
+    margin: 0 0 0 20px;
+    padding: 3px 4px;
+    height: 100px;
+    width: 334px;
+    background: #F9F9F9;
+    font: normal 12px/20px Verdana;
+    border: 1px solid silver;
+    overflow: hidden;
+    outline: none;
+}
+/*编辑器*/
+.sysEdit {
+    margin: 0;
+    padding: 0 0 0 20px;
+    height: 207px;
+}
+.sysEditTool {
+    float: left;
+    margin: 0;
+    padding: 5px 0 0 5px;
+    width: 46px;
+    height: 195px;
+    background: #F6F6F6;
+    border: 1px solid silver;
+    overflow: hidden;
+}
+.sysEditTool a {
+    float: left;
+    margin: 0 1px 1px 0;
+    padding: 0;
+    height: 18px;
+    width: 18px;
+    border: 1px solid #F6F6F6;
+    text-indent: -10000px;
+    outline:none;
+    hide-focus:expression(this.hideFocus=true);
+    overflow: hidden;
+}
+.sysEditTool a:hover {
+    float: left;
+    margin: 0 1px 1px 0;
+    padding: 0;
+    height: 18px;
+    width: 18px;
+    border: 1px solid gray;
+    text-indent: -10000px;
+    overflow: hidden;
+}
+.sysEditText {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 490px;
+    height: 200px;
+    border: 1px solid silver;
+    border-left: none;
+    overflow: hidden;
+}
+.sysEditText textarea {
+    float: left;
+    margin: 0;
+    padding: 3px 4px;
+    height: 192px;
+    width: 480px;
+    background: #F9F9F9;
+    font: normal 12px/20px Verdana;
+    border: 1px solid #F9F9F9;
+    outline: none;
+}
+/*工具栏*/
+.tool_b {
+    background: url(tool.png) no-repeat 0 0;
+}
+.tool_i {
+    background: url(tool.png) no-repeat 0 -20px;
+}
+.tool_u {
+    background: url(tool.png) no-repeat 0 -40px;
+}
+.tool_link {
+    background: url(tool.png) no-repeat 0 -60px;
+}
+.tool_color {
+    background: url(tool.png) no-repeat 0 -80px;
+}
+.tool_red {
+    background: url(tool.png) no-repeat 0 -100px;
+}
+.tool_blue {
+    background: url(tool.png) no-repeat 0 -120px;
+}
+.tool_green {
+    background: url(tool.png) no-repeat 0 -140px;
+}
+.tool_left {
+    background: url(tool.png) no-repeat 0 -160px;
+}
+.tool_center {
+    background: url(tool.png) no-repeat 0 -180px;
+}
+.tool_right {
+    background: url(tool.png) no-repeat 0 -200px;
+}
+.tool_img {
+    background: url(tool.png) no-repeat 0 -220px;
+}
+.tool_quote {
+    background: url(tool.png) no-repeat 0 -240px;
+}
+.tool_font {
+    background: url(tool.png) no-repeat 0 -260px;
+}
+.tool_size {
+    background: url(tool.png) no-repeat 0 -280px;
+}
+.tool_tag {
+    background: url(tool.png) no-repeat 0 -300px;
+}
+.tool_flash {
+    background: url(tool.png) no-repeat 0 -320px;
+}
+.tool_upload {
+    background: url(tool.png) no-repeat 0 -340px;
+}
+.tool_upload input {
+    font-size: 30px;
+    border:1px solid silver;
+    margin-top:-5px;
+    margin-left:-350px;
+    cursor:pointer;
+    filter:alpha(opacity=0); 
+    opacity:0; 
+    background: transparent;
+}
+.sysUploadInfo {
+    float: left;
+    margin-left: 20px;
+    height: 24px;
+    font: normal 12px/24px Verdana;
+    color: gray;
+	padding-left: 5px;
+    width: 450px;
+    overflow: hidden;
+	display:inline;
+}
+.sysUploadInfo a {
+    color: gray;
+    text-decoration: none;
+    outline:none;
+    hide-focus:expression(this.hideFocus=true);
+}
+.sysUploadInfo a:hover {
+    color: black;
+}

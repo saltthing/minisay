@@ -1,0 +1,138 @@
+body {
+    margin: 0 auto;
+    padding: 10px;
+    background: #DDDDDD;
+}
+#wrapper {
+    margin:0 auto;
+    width:900px;
+}
+/*头部*/
+#head {
+    float:left;
+    margin: 0 auto 10px;
+    width:900px;
+}
+#sysIdContain {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 900px;
+    background: #EEEEEE;
+    overflow: auto;
+    float:left;
+}
+#logo {
+    margin:0 auto;
+    float:left;
+    width:300px;
+    height:40px;
+}
+#topNav {
+    float:right;
+    margin-top:10px;
+}
+/*左边栏*/
+#left {
+    float: left;
+    margin: 0;
+    padding: 0 10px;
+    width: 200px;
+    border-right: 1px solid silver;
+}
+.left_item {
+    padding: 5px;
+    font: normal 12px/20px Verdana;
+    border-bottom: 1px dashed silver;
+}
+.left_item a {
+    color: green;
+    text-decoration: none;
+}
+.left_item a:hover {
+    text-decoration: underline;
+}
+.left_item img {
+	margin: 3px 0;
+    padding: 0;
+    border: none;
+}
+/*右边栏*/
+#right {
+    float: right;
+    margin: 0;
+    padding: 0 10px;
+    width: 659px;
+}
+.right_item {
+    margin: 0 0 10px 0;
+    padding: 5px 10px;
+    width: 639px;
+    font: normal 12px/20px Verdana;
+    background: white;
+    overflow: hidden;
+}
+.right_page {
+    margin: 0 0 5px 0;
+    font: normal 12px/25px Verdana;
+    text-align: center;
+}
+.right_item a,.right_page a {
+    color: green;
+    text-decoration: none;
+}
+.right_item a:hover,.right_page a:hover {
+    text-decoration: underline;
+}
+.right_item blockquote {
+    margin: 2px 0 2px 10px;
+    padding: 0 5px;
+    border-left: 3px solid green;
+    font-family: 'Courier New';
+}
+.right_item img {
+    margin: 3px 0;
+    padding: 0;
+    border: 2px solid silver;
+}
+.right_item_info {
+    color: gray;
+}
+.right_item_info a {
+    color: gray;
+}
+.right_item_info a:hover {
+    color: black;
+}
+.right_search {
+    height: 34px;
+}
+.right_search input {
+    margin: 0;
+    padding: 0 5px;
+    float: right;
+    height: 22px;
+    width: 160px;
+    border: 1px solid #DDDDDD;
+    font: normal 12px/22px Verdana;
+}
+.right_search a {
+    float: right;
+    height: 22px;
+    width: 30px;
+    background: white;
+    border: 1px solid #DDDDDD;border-left: none;
+    font: bold 12px/22px Arial;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+}
+.right_search a:hover {
+	color: green;
+}
+.right_mood {
+    float: left;
+    padding: 0 10px;
+    width: 420px;
+    height: 24px;
+    font: normal 12px/24px Verdana;
+}
